@@ -1,5 +1,7 @@
 # jinxi
 
+[![CI Build](https://github.com/ftorkler/jinxi/actions/workflows/node.js.yml/badge.svg)](https://github.com/ftorkler/jinxi/actions/workflows/node.js.yml)
+
 jinxi is a simple wrapper for inxi to create json output that can be parsed more easily than the original inxi output. The native inxi json output is heavily opinionated about the key format in use. This has its reasons ([see inxi webpage](https://smxi.org/docs/inxi-json-xml-output.htm)) and is totaly fine, but makes it hard to access values in simple (shell) scripts.
 
 ## comparison between inxi and jinxi
