@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import { parseInxiOutput } from "./inxi_parser";
-// import { process } from "process";
 import { spawnSync } from "child_process";
 
 const UTF8 = "utf8";
